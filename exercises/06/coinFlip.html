@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script>
+      let random = Math.random();
+      if (random < 0.5) {
+        result = "heads";
+      } else {
+        result = "tails";
+      }
+
+      let guess = "tails";
+      guess === result ? console.log("You win") : console.log("You lose");
+    </script>
+  </body>
+</html>
